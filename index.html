@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Welleson Torquato | Links</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: radial-gradient(ellipse at top, #0f0f0f 0%, #0a0a0a 100%);
+      color: #fff;
+      font-family: 'Inter', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 60px 20px;
+      min-height: 100vh;
+    }
+
+    h1 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 2rem;
+      margin-bottom: 10px;
+      color: #00c4ff;
+      letter-spacing: 1px;
+    }
+
+    p.subtitle {
+      color: #888;
+      font-size: 0.95rem;
+      margin-bottom: 40px;
+    }
+
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      width: 100%;
+      max-width: 420px;
+    }
+
+    .link {
+      text-decoration: none;
+      color: #fff;
+      background: linear-gradient(135deg, #00c4ff 0%, #007bff 100%);
+      padding: 16px 24px;
+      text-align: center;
+      border-radius: 10px;
+      font-weight: bold;
+      letter-spacing: 0.5px;
+      font-size: 1rem;
+      box-shadow: 0 0 12px rgba(0, 196, 255, 0.5);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .link:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 0 18px rgba(0, 196, 255, 0.8);
+    }
+
+    footer {
+      margin-top: 60px;
+      color: #555;
+      font-size: 0.9rem;
+      text-align: center;
+    }
+
+    .glow {
+      position: absolute;
+      width: 200px;
+      height: 200px;
+      background: #00c4ff;
+      opacity: 0.2;
+      filter: blur(80px);
+      border-radius: 50%;
+      z-index: 0;
+    }
+
+    .glow1 {
+      top: 0;
+      left: 0;
+    }
+
+    .glow2 {
+      bottom: 0;
+      right: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="glow glow1"></div>
+  <div class="glow glow2"></div>
+
+  <h1>Welleson Torquato</h1>
+  <p class="subtitle">Desenvolvedor Full Stack | Laravel & Python</p>
+
+  <div class="links">
+    <a href="https://wellesontorquato.github.io" class="link" target="_blank">🌐 Portfólio</a>
+    <a href="https://psigestor.com" class="link" target="_blank">🧠 PsiGestor</a>
+    <a href="https://evoplus.com.br" class="link" target="_blank">💬 EvoPlus</a>
+  </div>
+
+  <footer>&copy; 2025 Welleson Torquato. Todos os direitos reservados.</footer>
+
+</body>
+</html>
